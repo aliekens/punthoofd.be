@@ -24,16 +24,14 @@
 	parse("xml/hoofdpunten/nieuwsblad.xml", "Het Nieuwsblad");
 	parse("xml/hoofdpunten/hln.xml", "Het Laatste Nieuws");
 	parse("xml/hoofdpunten/belangvanlimburg.xml", "Het Belang van Limburg");
-	parse("xml/hoofdpunten/msn.xml", "MSN");
-	parse("xml/hoofdpunten/skynet.xml", "Skynet");
+	parse("xml/hoofdpunten/metro.xml", "Metro");
 	parse("xml/hoofdpunten/zita.xml", "Zita");
-	parse("xml/hoofdpunten/belg1.xml", "Belg.be");
-	parse("xml/hoofdpunten/belg2.xml", "Belg.be");
+	parse("xml/hoofdpunten/belg.xml", "Belg.be");
 	parse("xml/hoofdpunten/dewereldmorgen.xml", "De Wereld Morgen");
-	parse("xml/hoofdpunten/vandaag.xml", "Vandaag.be");
 	parse("xml/hoofdpunten/apache.xml", "Apache");
-	parse("xml/hoofdpunten/vt4.xml", "VT4");
-	parse("xml/hoofdpunten/clint.xml", "Clint");
+	parse("xml/hoofdpunten/mo.xml", "MO");
+	parse("xml/hoofdpunten/nieuws.xml", "Nieuws");
+	parse("xml/hoofdpunten/express.xml", "Express");
 	
 	dataMine( "hoofdpunten", "rss/hoofdpunten.xml", "Hoofdpunten" );
 	
